@@ -1,6 +1,6 @@
 import {userState} from 'react'
 import Sidenav from './components/sidenav'
-import Header from './components/main'
+import Header from './components/header'
 import Resume from './components/resume'
 import Portfolio from "./components/portfolio"
 import Contact from "./components/contact"
