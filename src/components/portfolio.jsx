@@ -8,9 +8,11 @@ const Portfolio = () => {
     return(
         <div id='portfolio' className='max-w-[1040] m-auto md:pl-20 p-4 py-16'>
             <h1 className='text-4xl font-bold text-center text-[#001b5e]'> Portfolio </h1>
-            <img src='.C:\Users\kmben\Kimportfolio\src\assets\Kim.jpg'/>
+
             <p className='text-center py-8'> 
-                Just few of the projects I have done throughout coding journey.
+                Just few of the projects I have done throughout coding journey. <p>
+                    Click on the project to take you to that projects Github. 
+                </p>
             </p>
             <div className='grid sm:grid-cols-2 gap-12'>
                 <a href='https://github.com/kmb8043/weatherAPI'  target="_blank" rel="noopener noreferrer">
