@@ -3,6 +3,8 @@ import PortfolioItem from './portfolioItem'
 import WeatherImg from '../../src/assets/weather.png'
 import PasswordImg from '../../src/assets/password_gen.png'
 import CodeVerseImg from '../../src/assets/codeverse.png'
+import GalleryImg from '../../src/assets/Gellery_of_Journeys.png'
+
 
 const Portfolio = () => {
     return(
@@ -23,6 +25,10 @@ const Portfolio = () => {
                 </a>
                 <a href='https://github.com/kmb8043/tech_blog'  target="_blank" rel="noopener noreferrer">
                     <PortfolioItem img={CodeVerseImg} title='CodeVerse'/>
+                </a>
+                
+                <a href='https://gallery-of-journeys.onrender.com/'  target="_blank" rel="noopener noreferrer">
+                    <PortfolioItem img={GalleryImg} title='Gallery_of_Journeys'/>
                 </a>
                 
                 
